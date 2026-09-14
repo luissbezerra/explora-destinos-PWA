@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ExploraDestinos</title>
+  <link rel="stylesheet" href="style.css">
+  
+  <link rel="manifest" href="manifest.json">
+  <meta name="theme-color" content="#0284c7">
+</head>
+<body>
+
+  <header>
+    <h1>ExploraDestinos</h1>
+    <button id="btn-tema">Tema</button>
+  </header>
+
+
+  <section class="hardware-box">
+    <button id="btn-gps">📍 Minha Localização (GPS)</button>
+    <p id="geo-info">Clique para capturar suas coordenadas via GPS.</p>
+  </section>
+
+  <input type="text" id="buscado" placeholder="Buscar destino...">
+
+  <div class="grid">
+    <div class="card">
+      <h3>Fernando de Noronha</h3>
+      <p>Praias paradisíacas e vida marinha rica.</p>
+      <span class="tag">Praia</span>
+      <img src="https://magazine.zarpo.com.br/wp-content/uploads/2021/10/baia-dos-porcos_zarpo-770x515.jpg" alt="Fernando de Noronha">
+    </div>
+
+    <div class="card">
+      <h3>Gramado</h3>
+      <p>Clima frio e arquitetura europeia.</p>
+      <span class="tag">Serra</span>
+      <img src="https://www.viagenscinematograficas.com.br/wp-content/uploads/2022/08/Gramado-O-que-Fazer-Passeios-1.jpg" alt="Gramado">
+    </div>
+
+    <div class="card">
+      <h3>Salvador</h3>
+      <p>Cultura vibrante e centro histórico.</p>
+      <span class="tag">Cultura</span>
+      <img src="https://www.maladeaventuras.com/wp-content/uploads/2020/05/vista-aerea-salvador-2.jpg" alt="Salvador">
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
