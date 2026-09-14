@@ -26,5 +26,5 @@ O **ExploraDestinos** é uma aplicação web progressiva (Progressive Web App - 
 ### 🚀 Como Executar o Projeto
 
 1. Acesse o link de publicação do GitHub Pages:
-   `https://seu-usuario.github.io/nome-do-repositorio/`
+   `https://luissbezerra.github.io/explora-destinos-PWA/`
 2. Ou clone este repositório localmente e execute através de um servidor local (como a extensão *Live Server* do VS Code).
